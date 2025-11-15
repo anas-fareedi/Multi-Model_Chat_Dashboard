@@ -66,7 +66,6 @@ ANTHROPIC_API_KEY=claude-xxxx
 MODEL_REGISTRY={"openai":"gpt-4o","anthropic":"claude-2"}
 BACKEND_HOST=http://localhost:8000
 FRONTEND_PORT=3000
-DATABASE_URL=sqlite:///./db.sqlite3
 
 Note: Use secure storage for production secrets.
 
@@ -99,12 +98,6 @@ Contributions are welcome.
 - If a model fails to respond, check provider credentials and network access.
 - For CORS issues, confirm backend CORS settings allow the frontend origin.
 - Check logs for adapter-specific error messages and provider rate-limit responses.
-
-## Roadmap / Ideas
-- Built-in evaluation metrics (BLEU, ROUGE, human ranking)
-- Side-by-side conversation diffing and export
-- Authentication and multi-tenant support
-- Plugin system for custom visualizations
 
 ## License
 Specify a license for this repository (e.g., MIT). Add a LICENSE file at the repo root.
