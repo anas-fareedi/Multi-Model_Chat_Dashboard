@@ -1,4 +1,5 @@
 # Multi-Model Chat Dashboard
+<img width="994" height="778" alt="Screenshot 2026-03-10 131949" src="https://github.com/user-attachments/assets/546729d4-2ea0-42db-9058-248c9fc8865a" />
 
 A web-based dashboard to interact with and compare multiple conversational models (LLMs or chat APIs) from one unified interface. The project provides a configurable frontend UI and backend orchestration so you can add, query, and inspect responses from different models side-by-side.
 
